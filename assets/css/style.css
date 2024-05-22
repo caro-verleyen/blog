@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@font-face {
+    font-family:Kalam-Light ;
+    src: url(./docs/Kalam-Light.ttf);
+ }   
+   
+body{
+   font-family:"Kalam-Light",Verdana, Geneva, Tahoma, sans-serif ;
+   background: url(./docs/fond-fleur1.png), center ;
+   min-height: 100vh;
+   
+}
+
+h1{
+    color:rgb(100, 100, 143);
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 2px 0px 4px;
+    font-family: "Dancing Script", cursive;
+    
+}
+
+h2{
+    color:rgb(100, 100, 143);
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 0px 4px; 
+    font-family: "Kalam-Lignt",Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.read{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    
+}
+
+.book2{
+    text-align: center; 
+    
+    
+}
+.crochet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.first{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: none;
+}    
+.first img{
+    float: left;
+    object-fit: cover;
+}
+
+.second{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: none;  
+
+}
+.second img{
+    float: left;
+    object-fit: cover;   
+}
+.third{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: none;  
+}
+.third img{
+    float: left;
+    object-fit: cover; 
+}
+.fourth{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.fourth img{
+    float: left;
+    object-fit: cover;   
+}
